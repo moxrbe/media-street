@@ -123,7 +123,7 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 6px 0;
-    
+    align-items: center;
 }
 
 .nav__logo{
@@ -326,8 +326,6 @@ ul{
 }
 
 .item{
-    min-height: 524px;
-    max-width: 370px;
     width: 100%;
 }
 
@@ -413,7 +411,6 @@ ul{
 .box {
     position: relative;
     width: 100%;
-    max-width: 318px;
   }
   
 .box__img {
@@ -560,5 +557,9 @@ ul{
     text-align: justify;
     margin-top: 30px;
 } 
+
+.main__burger{
+    width: 100%;
+}
 
 /* about end */
